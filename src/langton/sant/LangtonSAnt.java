@@ -16,6 +16,7 @@ public class LangtonSAnt {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        LangtonsBoard.main();
         // TODO code application logic here
     }
     
