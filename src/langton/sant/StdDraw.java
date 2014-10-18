@@ -234,8 +234,8 @@ public final class StdDraw implements ActionListener, MouseListener, MouseMotion
      * @param min the minimum value of the x-scale
      * @param max the maximum value of the x-scale
      */
-    public static void setXscale(double min, double max) {
-        double size = max - min;
+    public static void setXscale(double min, double max) {//-.5, x - .5
+        double size = max - min; // x - .5 - -.5    == x = .5 + .5   == x
         xmin = min - BORDER * size;
         xmax = max + BORDER * size;
     }

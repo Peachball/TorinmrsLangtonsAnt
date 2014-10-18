@@ -145,7 +145,7 @@ public class LangtonsBoard
 	System.out.println("    (try 100 to start with):");
         int size = StdIn.readInt();
         Ant ant = new Ant(size/2, size/2, 2);
-        System.out.println("Please input the desired 'DNA' for you ant, "); 
+        System.out.println("Please input the desired 'DNA' for your ant, "); 
 	System.out.println("as a series of the letters 'R' and 'L':");
 	System.out.println("   'RL' produces the classic Langton's Ant.");
 	System.out.println("   'RLR', 'LLRR', 'LRRRRRLLR', 'LLRRRLRLRLLR', and 'RRLLLRLLLRRR'");
